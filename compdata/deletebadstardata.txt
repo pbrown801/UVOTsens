@@ -77,7 +77,7 @@ rm M51_*_3_comp06.dat
 rm M51_*_3_comp07.dat
 
 rm M51_w2_3_comp08.dat
-rm M51_m2_3_comp08.dat
+rm M51_*_3_comp08.dat
 rm M51_w2_3_comp11.dat
 rm M51_m2_3_comp11.dat
 rm M51_w2_3_comp12.dat
