@@ -1,87 +1,120 @@
-rm SN2006aj_w2_3_comp03.dat 
-rm SN2006aj_m2_3_comp03.dat 
-rm SN2006aj_w1_3_comp03.dat 
-rm SN2006aj_w1_3_comp04.dat 
-rm SN2006aj_m2_3_comp04.dat 
-rm SN2006aj_w2_3_comp04.dat 
-rm SN2006aj_w2_3_comp05.dat 
-rm SN2006aj_m2_3_comp05.dat 
-rm SN2006aj_m2_3_comp06.dat 
-rm SN2006aj_w2_3_comp06.dat 
-rm SN2006aj_w1_3_comp06.dat 
-rm SN2006aj_bb_3_comp09.dat 
-rm SN2006aj_vv_3_comp09.dat 
-rm SN2006aj_w2_3_comp10.dat 
-rm SN2006aj_m2_3_comp10.dat 
-rm SN2006aj_w1_3_comp10.dat 
-rm SN2006aj_w1_3_comp13.dat 
-rm SN2006aj_w2_3_comp13.dat 
-rm SN2006aj_m2_3_comp13.dat 
-rm SN2006aj_vv_3_comp14.dat 
-rm SN2006aj_bb_3_comp14.dat 
-rm SN2006aj_uu_3_comp14.dat 
-rm SN2006aj_*_3_comp15.dat 
-rm SN2006aj_vv_3_comp16.dat 
-rm SN2006aj_bb_3_comp16.dat 
-rm SN2006aj_bb_3_comp17.dat 
-rm SN2006aj_vv_3_comp17.dat 
-rm SN2006aj_uu_3_comp17.dat 
-rm SN2006aj_bb_3_comp18.dat 
-rm SN2006aj_vv_3_comp18.dat 
-rm SN2006aj_*_3_comp19.dat 
+rm SN2006aj_m2_3_5_comp01.dat 
+rm SN2006aj_m2_3_5_comp02.dat 
+rm SN2006aj_m2_3_5_comp07.dat 
+rm SN2006aj_m2_3_5_comp08.dat 
+rm SN2006aj_m2_3_5_comp09.dat 
+rm SN2006aj_m2_3_5_comp11.dat 
+rm SN2006aj_m2_3_5_comp12.dat
+rm SN2006aj_m2_3_5_comp14.dat 
+
+rm SN2006aj_w2_3_5_comp01.dat 
+rm SN2006aj_w2_3_5_comp02.dat 
+rm SN2006aj_w2_3_5_comp07.dat 
+rm SN2006aj_w2_3_5_comp08.dat 
+rm SN2006aj_w2_3_5_comp09.dat 
+rm SN2006aj_w2_3_5_comp11.dat 
+rm SN2006aj_w2_3_5_comp12.dat
+rm SN2006aj_w2_3_5_comp14.dat 
 
 
 
-rm SN2006jc_w2_3_comp3.dat
-rm SN2006jc_m2_3_comp3.dat
-rm SN2006jc_w2_3_comp4.dat
-rm SN2006jc_m2_3_comp4.dat
-rm SN2006jc_w2_3_comp5.dat
-rm SN2006jc_m2_3_comp5.dat
-rm SN2006jc_w2_3_comp6.dat
-rm SN2006jc_m2_3_comp6.dat
 
-rm SN2006jc_w2_3_comp7.dat
-rm SN2006jc_m2_3_comp7.dat
-rm SN2006jc_w2_3_comp8.dat
-rm SN2006jc_m2_3_comp8.dat
-rm SN2006jc_w2_3_comp9.dat
-rm SN2006jc_m2_3_comp9.dat
+rm SN2006aj_w1_3_5_comp01.dat 
+rm SN2006aj_w1_3_5_comp02.dat 
+rm SN2006aj_w1_3_5_comp06.dat 
 
-rm SN2006jc_w2_3_comp10.dat
-rm SN2006jc_m2_3_comp10.dat
-rm SN2006jc_w2_3_comp11.dat
-rm SN2006jc_m2_3_comp11.dat
 
-rm SN2006jc_w2_3_comp12.dat
-rm SN2006jc_m2_3_comp12.dat
-rm SN2006jc_w1_3_comp12.dat
 
-rm SN2006jc_w2_3_comp13.dat
-rm SN2006jc_m2_3_comp13.dat
-rm SN2006jc_w1_3_comp13.dat
 
-rm SN2006jc_uu_3_comp15.dat
-rm SN2006jc_bb_3_comp15.dat
-rm SN2006jc_vv_3_comp15.dat
+rm SN2006aj_w2_3_5_comp03.dat 
+rm SN2006aj_m2_3_5_comp03.dat 
+rm SN2006aj_w1_3_5_comp03.dat 
+rm SN2006aj_w1_3_5_comp04.dat 
+rm SN2006aj_m2_3_5_comp04.dat 
+rm SN2006aj_w2_3_5_comp04.dat 
+rm SN2006aj_w2_3_5_comp05.dat 
+rm SN2006aj_m2_3_5_comp05.dat 
+rm SN2006aj_m2_3_5_comp06.dat 
+rm SN2006aj_w2_3_5_comp06.dat 
+rm SN2006aj_w1_3_5_comp06.dat 
+rm SN2006aj_bb_3_5_comp09.dat 
+rm SN2006aj_vv_3_5_comp09.dat 
+rm SN2006aj_w2_3_5_comp10.dat 
+rm SN2006aj_m2_3_5_comp10.dat 
+rm SN2006aj_w1_3_5_comp10.dat 
+rm SN2006aj_vv_3_5_comp10.dat 
+rm SN2006aj_vv_3_5_comp11.dat 
+rm SN2006aj_w1_3_5_comp13.dat 
+rm SN2006aj_w2_3_5_comp13.dat 
+rm SN2006aj_m2_3_5_comp13.dat 
+rm SN2006aj_vv_3_5_comp14.dat 
+rm SN2006aj_bb_3_5_comp14.dat 
+rm SN2006aj_uu_3_5_comp14.dat 
+rm SN2006aj_*_3_5_comp15.dat 
+rm SN2006aj_vv_3_5_comp16.dat 
+rm SN2006aj_bb_3_5_comp16.dat 
+rm SN2006aj_bb_3_5_comp17.dat 
+rm SN2006aj_vv_3_5_comp17.dat 
+rm SN2006aj_uu_3_5_comp17.dat 
+rm SN2006aj_bb_3_5_comp18.dat 
+rm SN2006aj_vv_3_5_comp18.dat 
+rm SN2006aj_*_3_5_comp19.dat 
 
-rm SN2006jc_uu_3_comp16.dat
-rm SN2006jc_bb_3_comp16.dat
-rm SN2006jc_vv_3_comp16.dat
+
+
+rm SN2006jc_w2_3_5_comp1.dat
+rm SN2006jc_w2_3_5_comp3.dat
+rm SN2006jc_m2_3_5_comp3.dat
+rm SN2006jc_w2_3_5_comp4.dat
+rm SN2006jc_m2_3_5_comp4.dat
+rm SN2006jc_w2_3_5_comp5.dat
+rm SN2006jc_m2_3_5_comp5.dat
+rm SN2006jc_w2_3_5_comp6.dat
+rm SN2006jc_m2_3_5_comp6.dat
+
+rm SN2006jc_w2_3_5_comp7.dat
+rm SN2006jc_m2_3_5_comp7.dat
+rm SN2006jc_w2_3_5_comp8.dat
+rm SN2006jc_m2_3_5_comp8.dat
+rm SN2006jc_w2_3_5_comp9.dat
+rm SN2006jc_m2_3_5_comp9.dat
+rm SN2006jc_w1_3_5_comp9.dat
+
+rm SN2006jc_w2_3_5_comp10.dat
+rm SN2006jc_m2_3_5_comp10.dat
+rm SN2006jc_w2_3_5_comp11.dat
+rm SN2006jc_m2_3_5_comp11.dat
+
+rm SN2006jc_w2_3_5_comp12.dat
+rm SN2006jc_m2_3_5_comp12.dat
+rm SN2006jc_w1_3_5_comp12.dat
+
+rm SN2006jc_w2_3_5_comp13.dat
+rm SN2006jc_m2_3_5_comp13.dat
+rm SN2006jc_w1_3_5_comp13.dat
+rm SN2006jc_uu_3_5_comp13.dat
+
+rm SN2006jc_uu_3_5_comp15.dat
+rm SN2006jc_bb_3_5_comp15.dat
+rm SN2006jc_vv_3_5_comp15.dat
+
+rm SN2006jc_uu_3_5_comp16.dat
+rm SN2006jc_bb_3_5_comp16.dat
+rm SN2006jc_vv_3_5_comp16.dat
 
 #many of the M51 stars have galaxy light which would mess up the aperturecorrection tests
-rm M51_*_3_comp01.dat
-rm M51_*_3_comp02.dat
-rm M51_*_3_comp04.dat
-rm M51_*_3_comp06.dat
-rm M51_*_3_comp07.dat
+rm M51_*_3_5_comp01.dat
+rm M51_*_3_5_comp02.dat
+rm M51_*_3_5_comp04.dat
+rm M51_*_3_5_comp06.dat
+rm M51_*_3_5_comp07.dat
 
-rm M51_w2_3_comp08.dat
-rm M51_*_3_comp08.dat
-rm M51_w2_3_comp11.dat
-rm M51_m2_3_comp11.dat
-rm M51_w2_3_comp12.dat
-rm M51_m2_3_comp12.dat
+rm M51_w2_3_5_comp08.dat
+rm M51_*_3_5_comp08.dat
+rm M51_w2_3_5_comp11.dat
+rm M51_m2_3_5_comp11.dat
+rm M51_w2_3_5_comp12.dat
+rm M51_m2_3_5_comp12.dat
 
 
  
