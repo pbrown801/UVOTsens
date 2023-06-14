@@ -1,0 +1,96 @@
+#!/bin/tcsh -f
+##### 
+##################################################################################
+# by Peter Brown                                                                 #
+# 				                                 	         #
+                                                                                 #
+##################################################################################
+### 
+#set	SNname=$argv[1] 
+
+set snlist = (SN2005am SN2005cf SN2006X SN2006aj SN2007cv SN2007on SN2007pk SN2009ig SN2010al SN2011by SN2011hw SN2011iw SN2012fr LSQ13cuw SN2016gxp SN2018aoz SN2018xx SN2018cow SN2018hna SN2019hgp SN2019np SN2019wep SN2019yvq SN2020hvf SN2021csp SN2021yja SN2022hrs SN2023bee)
+
+
+
+set bandlist = (vv bb uu w1 m2 w2)
+
+foreach SNname ($snlist)
+	echo $SNname
+foreach band ($bandlist)
+	foreach comp (1 2 3 4 5 6 7 8 9 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39)
+	set compfits =  "/Volumes/SOUSAssd/SwiftSNarchive/"$SNname"/"$SNname"_"$band"_3_comp"$comp".fits"
+	set compfile =  "compdata/"$SNname"_"$band"_3_comp"$comp".dat"
+	set compfile2 = "compdata/"$SNname"_"$band"_3_comp"$comp"_more.dat"
+
+	if (-e $compfits) then
+		echo "running on " $compfits
+		ftcalc $compfits $compfits clobber=yes column="TMID"     tform=1D expression="(TSTOP-TSTART)/2+TSTART"
+		ftcalc $compfits $compfits clobber=yes column="JD"       tform=1D expression="TMID/60/60/24+2451910.5"
+		ftcalc $compfits $compfits clobber=yes column="MJD"      tform=1D expression="JD-2400000.5"
+		ftcalc $compfits $compfits clobber=yes column="YEAR"      tform=1D expression="2005.0+MJD-53371.0"
+		ftcalc $compfits $compfits clobber=yes column="S5CR"  tform=1E  expression="(RAW_STD_RATE*COI_STD_FACTOR)"
+		ftcalc $compfits $compfits clobber=yes column="S5CRe" tform=1E  expression="(RAW_STD_RATE_ERR*COI_STD_FACTOR)"
+		###### 
+
+		###### 
+		ftcalc $compfits $compfits clobber=yes column="S5BCR"  tform=1E  expression="S5CR-COI_BKG_RATE*STD_AREA"
+		ftcalc $compfits $compfits clobber=yes column="S5BCRe" tform=1E  expression="sqrt((S5CRe)^2+(COI_BKG_RATE_ERR*STD_AREA)^2)"
+
+
+		ftlist $compfits option=t outfile=$compfile       columns="SNname, filter, MJD, COI_SRC_RATE, COI_SRC_RATE_ERR, S5BCR, S5BCRe " clobber=yes rownum=no colheader=no
+		ftlist $compfits option=t outfile=$compfile2       columns="SNname, filter, YEAR, EXPOSURE, TELAPSE, COI_SRC_RATE, COI_SRC_RATE_ERR, RAW_BKG_RATE, S5CR, S5CRe " clobber=yes rownum=no colheader=no
+
+	endif
+	end
+end
+########   S5BCR = (RAW_STD_RATE*COI_STD_FACTOR) - (COI_BKG_RATE*STD_AREA)
+#######  COI_SRC_RATE = RAW_TOT_RATE*COI_STD_FACTOR - COI_BKG_RATE*SRC_AREA
+
+foreach band ($bandlist)
+
+	foreach comp (01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39)
+	set compfits =  "/Volumes/SOUSAssd/SwiftSNarchive/"$SNname"/"$SNname"_"$band"_3_comp"$comp"_centroid.fits"
+	set compfile =  "compdata/"$SNname"_"$band"_3_comp"$comp"_centroid.dat"
+	set compfile2 = "compdata/"$SNname"_"$band"_3_comp"$comp"_centroid_more.dat"
+        
+	if (-e $compfits) then
+		ftcalc $compfits $compfits clobber=yes column="TMID"     tform=1D expression="(TSTOP-TSTART)/2+TSTART"
+		ftcalc $compfits $compfits clobber=yes column="JD"       tform=1D expression="TMID/60/60/24+2451910.5"
+		ftcalc $compfits $compfits clobber=yes column="MJD"      tform=1D expression="JD-2400000.5"
+		ftcalc $compfits $compfits clobber=yes column="YEAR"      tform=1D expression="2005.0+MJD-53371.0"
+		ftcalc $compfits $compfits clobber=yes column="S5CR"  tform=1E  expression="(RAW_STD_RATE*COI_STD_FACTOR)"
+		ftcalc $compfits $compfits clobber=yes column="S5CRe" tform=1E  expression="(RAW_STD_RATE_ERR*COI_STD_FACTOR)"
+
+
+		ftlist $compfits option=t outfile=$compfile       columns="SNname, filter, MJD, COI_SRC_RATE, COI_SRC_RATE_ERR, S5CR, S5CRe " clobber=yes rownum=no colheader=no
+		ftlist $compfits option=t outfile=$compfile2       columns="SNname, filter, YEAR, EXPOSURE, TELAPSE, COI_SRC_RATE, COI_SRC_RATE_ERR, RAW_BKG_RATE, S5CR, S5CRe " clobber=yes rownum=no colheader=no
+
+	endif
+
+	end
+end
+end
+
+exit 0
+
+### 9 months ago
+
+####  	set compfile = $SNname"_"$band"_3_5_comp"$comp".dat"
+####	set compfile2 = $SNname"_"$band"_3_comp"$comp"_more.dat"
+####   ftlist $compfits option=t outfile=$compfile       columns="SNname, filter, MJD, COI_SRC_RATE, COI_SRC_RATE_ERR, S5BCR, S5BCRe " clobber=yes rownum=no colheader=no
+#####	ftlist $compfits option=t outfile=$compfile2       columns="SNname, filter, YEAR, EXPOSURE, TELAPSE, COI_SRC_RATE, COI_SRC_RATE_ERR, RAW_BKG_RATE, S5CR, S5CRe " clobber=yes rownum=no colheader=no
+
+####
+
+
+
+#####   compfile2 = $SNname"_"$band"_3_comp"$comp"_centroid_more.dat
+#####   columns="SNname, filter, YEAR, EXPOSURE, TELAPSE, COI_SRC_RATE, COI_SRC_RATE_ERR, RAW_BKG_RATE, S5CR, S5CRe "
+
+######## 
+########compfile = $SNname"_"$band"_3_comp"$comp"_centroid.dat"
+########"SNname, filter, MJD, COI_SRC_RATE, COI_SRC_RATE_ERR, S5CR, S5CRe 
+
+########  2 years ago
+########    compfile = $SNname"_"$band"_3_centroid_comp"$comp".dat"
+######## "SNname, filter, MJD, COI_SRC_RATE, COI_SRC_RATE_ERR, S5CR, S5CRe
