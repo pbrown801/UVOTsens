@@ -1,0 +1,586 @@
+edit compdata/SN2006jc_vv_senstest_comp2_more.dat 8
+ds9 -region load SN2006jc_comp2.reg SN2006jc_vv.img\[8\] &        streaks
+edit compdata/SN2006jc_vv_senstest_comp3_more.dat 8
+ds9 -region load SN2006jc_comp3.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2006jc_vv_senstest_comp5_more.dat 8
+ds9 -region load SN2006jc_comp5.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2006jc_vv_senstest_comp9_more.dat 8
+ds9 -region load SN2006jc_comp9.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2006jc_vv_senstest_comp10_more.dat 8
+ds9 -region load SN2006jc_comp10.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2006jc_vv_senstest_comp11_more.dat 8
+ds9 -region load SN2006jc_comp11.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2006jc_vv_senstest_comp15_more.dat 8
+ds9 -region load SN2006jc_comp15.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2006jc_vv_senstest_comp20_more.dat 8
+ds9 -region load SN2006jc_comp20.reg SN2006jc_vv.img\[8\] &
+edit compdata/SN2012fr_vv_senstest_comp1_more.dat 23
+ds9 -region load SN2012fr_comp1.reg SN2012fr_vv.img\[23\] &    ?
+edit compdata/SN2018hna_vv_senstest_comp1_more.dat 26
+ds9 -region load SN2018hna_comp1.reg SN2018hna_vv.img\[26\] &  ghost reflection
+edit compdata/SN2019yvq_vv_senstest_comp02_more.dat 10
+ds9 -region load SN2019yvq_comp02.reg SN2019yvq_vv.img\[10\] & ?
+edit compdata/SN2020hvf_vv_senstest_comp05_more.dat 8
+ds9 -region load SN2020hvf_comp05.reg SN2020hvf_vv.img\[8\] &
+edit compdata/SN2020hvf_vv_senstest_comp07_more.dat 8
+ds9 -region load SN2020hvf_comp07.reg SN2020hvf_vv.img\[8\] &
+edit compdata/SN2020hvf_vv_senstest_comp07_more.dat 14
+ds9 -region load SN2020hvf_comp07.reg SN2020hvf_vv.img\[14\] &
+edit compdata/SN2022hrs_vv_senstest_comp02_more.dat 12
+ds9 -region load SN2022hrs_comp02.reg SN2022hrs_vv.img\[12\] &
+edit compdata/SN2022hrs_vv_senstest_comp02_more.dat 13
+ds9 -region load SN2022hrs_comp02.reg SN2022hrs_vv.img\[13\] &
+edit compdata/SN2023bee_vv_senstest_comp05_more.dat 1
+ds9 -region load SN2023bee_comp05.reg SN2023bee_vv.img\[1\] &
+edit compdata/SN2023bee_vv_senstest_comp05_more.dat 7
+ds9 -region load SN2023bee_comp05.reg SN2023bee_vv.img\[7\] &
+edit compdata/SN2023bee_vv_senstest_comp20_more.dat 16
+ds9 -region load SN2023bee_comp20.reg SN2023bee_vv.img\[16\] &
+edit compdata/SN2023bee_vv_senstest_comp26_more.dat 16
+ds9 -region load SN2023bee_comp26.reg SN2023bee_vv.img\[16\] &
+edit compdata/SN2006jc_bb_senstest_comp3_more.dat 125
+ds9 -region load SN2006jc_comp3.reg SN2006jc_bb.img\[125\] &
+edit compdata/SN2018hna_bb_senstest_comp1_more.dat 1
+ds9 -region load SN2018hna_comp1.reg SN2018hna_bb.img\[1\] &
+edit compdata/SN2018hna_bb_senstest_comp1_more.dat 12
+ds9 -region load SN2018hna_comp1.reg SN2018hna_bb.img\[12\] &
+edit compdata/SN2018hna_bb_senstest_comp1_more.dat 16
+ds9 -region load SN2018hna_comp1.reg SN2018hna_bb.img\[16\] &
+edit compdata/SN2018hna_bb_senstest_comp1_more.dat 23
+ds9 -region load SN2018hna_comp1.reg SN2018hna_bb.img\[23\] &
+edit compdata/SN2018hna_bb_senstest_comp1_more.dat 29
+ds9 -region load SN2018hna_comp1.reg SN2018hna_bb.img\[29\] &
+edit compdata/SN2018hna_bb_senstest_comp3_more.dat 9
+ds9 -region load SN2018hna_comp3.reg SN2018hna_bb.img\[9\] &
+edit compdata/SN2022hrs_bb_senstest_comp02_more.dat 4
+ds9 -region load SN2022hrs_comp02.reg SN2022hrs_bb.img\[4\] &
+edit compdata/SN2022hrs_bb_senstest_comp02_more.dat 12
+ds9 -region load SN2022hrs_comp02.reg SN2022hrs_bb.img\[12\] &
+edit compdata/SN2006jc_uu_senstest_comp2_more.dat 101
+ds9 -region load SN2006jc_comp2.reg SN2006jc_uu.img\[101\] &
+edit compdata/SN2018hna_uu_senstest_comp1_more.dat 22
+ds9 -region load SN2018hna_comp1.reg SN2018hna_uu.img\[22\] &
+edit compdata/SN2018hna_uu_senstest_comp1_more.dat 23
+ds9 -region load SN2018hna_comp1.reg SN2018hna_uu.img\[23\] &
+edit compdata/SN2018hna_uu_senstest_comp1_more.dat 24
+ds9 -region load SN2018hna_comp1.reg SN2018hna_uu.img\[24\] &
+edit compdata/SN2018hna_uu_senstest_comp1_more.dat 26
+ds9 -region load SN2018hna_comp1.reg SN2018hna_uu.img\[26\] &
+edit compdata/SN2018hna_uu_senstest_comp1_more.dat 27
+ds9 -region load SN2018hna_comp1.reg SN2018hna_uu.img\[27\] &
+edit compdata/SN2020hvf_uu_senstest_comp03_more.dat 9
+ds9 -region load SN2020hvf_comp03.reg SN2020hvf_uu.img\[9\] &
+edit compdata/SN2020hvf_uu_senstest_comp05_more.dat 9
+ds9 -region load SN2020hvf_comp05.reg SN2020hvf_uu.img\[9\] &
+edit compdata/SN2020hvf_uu_senstest_comp07_more.dat 13
+ds9 -region load SN2020hvf_comp07.reg SN2020hvf_uu.img\[13\] &
+edit compdata/SN2022hrs_uu_senstest_comp02_more.dat 13
+ds9 -region load SN2022hrs_comp02.reg SN2022hrs_uu.img\[13\] &
+edit compdata/SN2023bee_uu_senstest_comp02_more.dat 5
+ds9 -region load SN2023bee_comp02.reg SN2023bee_uu.img\[5\] &
+edit compdata/SN2023bee_uu_senstest_comp05_more.dat 8
+ds9 -region load SN2023bee_comp05.reg SN2023bee_uu.img\[8\] &
+edit compdata/WD1026_uu_senstest_comp01_more.dat 25
+ds9 -region load WD1026_comp01.reg WD1026_uu.img\[25\] &
+edit compdata/WD1026_uu_senstest_comp04_more.dat 25
+ds9 -region load WD1026_comp04.reg WD1026_uu.img\[25\] &
+edit compdata/WD1026_uu_senstest_comp07_more.dat 25
+ds9 -region load WD1026_comp07.reg WD1026_uu.img\[25\] &
+edit compdata/WD1026_uu_senstest_comp09_more.dat 25
+ds9 -region load WD1026_comp09.reg WD1026_uu.img\[25\] &
+edit compdata/SN2006jc_w1_senstest_comp1_more.dat 265
+ds9 -region load SN2006jc_comp1.reg SN2006jc_w1.img\[265\] &
+edit compdata/SN2006jc_w1_senstest_comp3_more.dat 265
+ds9 -region load SN2006jc_comp3.reg SN2006jc_w1.img\[265\] &
+edit compdata/SN2006jc_w1_senstest_comp10_more.dat 233
+ds9 -region load SN2006jc_comp10.reg SN2006jc_w1.img\[233\] &
+edit compdata/SN2006jc_w1_senstest_comp12_more.dat 37
+ds9 -region load SN2006jc_comp12.reg SN2006jc_w1.img\[37\] &
+edit compdata/SN2006jc_w1_senstest_comp21_more.dat 209
+ds9 -region load SN2006jc_comp21.reg SN2006jc_w1.img\[209\] &
+edit compdata/SN2007cv_w1_senstest_comp1_more.dat 2
+ds9 -region load SN2007cv_comp1.reg SN2007cv_w1.img\[2\] &
+edit compdata/SN2010al_w1_senstest_comp2_more.dat 2
+ds9 -region load SN2010al_comp2.reg SN2010al_w1.img\[2\] &
+edit compdata/SN2010al_w1_senstest_comp2_more.dat 14
+ds9 -region load SN2010al_comp2.reg SN2010al_w1.img\[14\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 1
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[1\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 3
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[3\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 5
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[5\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 6
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[6\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 14
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[14\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 19
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[19\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 29
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[29\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 30
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[30\] &
+edit compdata/SN2012fr_w1_senstest_comp3_more.dat 33
+ds9 -region load SN2012fr_comp3.reg SN2012fr_w1.img\[33\] &
+edit compdata/SN2016gxp_w1_senstest_comp01_more.dat 7
+ds9 -region load SN2016gxp_comp01.reg SN2016gxp_w1.img\[7\] &
+edit compdata/SN2016gxp_w1_senstest_comp03_more.dat 7
+ds9 -region load SN2016gxp_comp03.reg SN2016gxp_w1.img\[7\] &
+edit compdata/SN2016gxp_w1_senstest_comp06_more.dat 7
+ds9 -region load SN2016gxp_comp06.reg SN2016gxp_w1.img\[7\] &
+edit compdata/SN2018aoz_w1_senstest_comp7_more.dat 1
+ds9 -region load SN2018aoz_comp7.reg SN2018aoz_w1.img\[1\] &
+edit compdata/SN2018aoz_w1_senstest_comp7_more.dat 10
+ds9 -region load SN2018aoz_comp7.reg SN2018aoz_w1.img\[10\] &
+edit compdata/SN2018cow_w1_senstest_comp07_more.dat 27
+ds9 -region load SN2018cow_comp07.reg SN2018cow_w1.img\[27\] &
+edit compdata/SN2018hna_w1_senstest_comp2_more.dat 17
+ds9 -region load SN2018hna_comp2.reg SN2018hna_w1.img\[17\] &
+edit compdata/SN2018hna_w1_senstest_comp7_more.dat 8
+ds9 -region load SN2018hna_comp7.reg SN2018hna_w1.img\[8\] &
+edit compdata/SN2018hna_w1_senstest_comp7_more.dat 17
+ds9 -region load SN2018hna_comp7.reg SN2018hna_w1.img\[17\] &
+edit compdata/SN2019wep_w1_senstest_comp06_more.dat 1
+ds9 -region load SN2019wep_comp06.reg SN2019wep_w1.img\[1\] &
+edit compdata/SN2019yvq_w1_senstest_comp01_more.dat 10
+ds9 -region load SN2019yvq_comp01.reg SN2019yvq_w1.img\[10\] &
+edit compdata/SN2019yvq_w1_senstest_comp01_more.dat 18
+ds9 -region load SN2019yvq_comp01.reg SN2019yvq_w1.img\[18\] &
+edit compdata/SN2019yvq_w1_senstest_comp02_more.dat 3
+ds9 -region load SN2019yvq_comp02.reg SN2019yvq_w1.img\[3\] &
+edit compdata/SN2020hvf_w1_senstest_comp03_more.dat 2
+ds9 -region load SN2020hvf_comp03.reg SN2020hvf_w1.img\[2\] &
+edit compdata/SN2020hvf_w1_senstest_comp05_more.dat 10
+ds9 -region load SN2020hvf_comp05.reg SN2020hvf_w1.img\[10\] &
+edit compdata/SN2021csp_w1_senstest_comp03_more.dat 1
+ds9 -region load SN2021csp_comp03.reg SN2021csp_w1.img\[1\] &
+edit compdata/SN2021csp_w1_senstest_comp04_more.dat 1
+ds9 -region load SN2021csp_comp04.reg SN2021csp_w1.img\[1\] &
+edit compdata/SN2021csp_w1_senstest_comp06_more.dat 1
+ds9 -region load SN2021csp_comp06.reg SN2021csp_w1.img\[1\] &
+edit compdata/SN2021csp_w1_senstest_comp08_more.dat 1
+ds9 -region load SN2021csp_comp08.reg SN2021csp_w1.img\[1\] &
+edit compdata/SN2021yja_w1_senstest_comp3_more.dat 5
+ds9 -region load SN2021yja_comp3.reg SN2021yja_w1.img\[5\] &
+edit compdata/SN2022hrs_w1_senstest_comp03_more.dat 2
+ds9 -region load SN2022hrs_comp03.reg SN2022hrs_w1.img\[2\] &
+edit compdata/SN2022hrs_w1_senstest_comp03_more.dat 4
+ds9 -region load SN2022hrs_comp03.reg SN2022hrs_w1.img\[4\] &
+edit compdata/SN2022hrs_w1_senstest_comp06_more.dat 6
+ds9 -region load SN2022hrs_comp06.reg SN2022hrs_w1.img\[6\] &
+edit compdata/SN2022hrs_w1_senstest_comp08_more.dat 8
+ds9 -region load SN2022hrs_comp08.reg SN2022hrs_w1.img\[8\] &
+edit compdata/SN2023bee_w1_senstest_comp02_more.dat 7
+ds9 -region load SN2023bee_comp02.reg SN2023bee_w1.img\[7\] &
+edit compdata/SN2023bee_w1_senstest_comp03_more.dat 7
+ds9 -region load SN2023bee_comp03.reg SN2023bee_w1.img\[7\] &
+edit compdata/SN2023bee_w1_senstest_comp05_more.dat 7
+ds9 -region load SN2023bee_comp05.reg SN2023bee_w1.img\[7\] &
+edit compdata/SN2023bee_w1_senstest_comp07_more.dat 7
+ds9 -region load SN2023bee_comp07.reg SN2023bee_w1.img\[7\] &
+edit compdata/SN2023bee_w1_senstest_comp30_more.dat 7
+ds9 -region load SN2023bee_comp30.reg SN2023bee_w1.img\[7\] &
+edit compdata/WD1026_w1_senstest_comp02_more.dat 30
+ds9 -region load WD1026_comp02.reg WD1026_w1.img\[30\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 26
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[26\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 27
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[27\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 28
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[28\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 29
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[29\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 31
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[31\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 32
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[32\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 33
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[33\] &
+edit compdata/WD1026_w1_senstest_comp03_more.dat 35
+ds9 -region load WD1026_comp03.reg WD1026_w1.img\[35\] &
+edit compdata/WD1026_w1_senstest_comp04_more.dat 11
+ds9 -region load WD1026_comp04.reg WD1026_w1.img\[11\] &
+edit compdata/WD1026_w1_senstest_comp06_more.dat 30
+ds9 -region load WD1026_comp06.reg WD1026_w1.img\[30\] &
+edit compdata/WD1026_w1_senstest_comp08_more.dat 30
+ds9 -region load WD1026_comp08.reg WD1026_w1.img\[30\] &
+edit compdata/WD1026_w1_senstest_comp09_more.dat 31
+ds9 -region load WD1026_comp09.reg WD1026_w1.img\[31\] &
+edit compdata/WD1026_w1_senstest_comp09_more.dat 35
+ds9 -region load WD1026_comp09.reg WD1026_w1.img\[35\] &
+edit compdata/WD1026_w1_senstest_comp09_more.dat 36
+ds9 -region load WD1026_comp09.reg WD1026_w1.img\[36\] &
+edit compdata/WD1026_w1_senstest_comp09_more.dat 37
+ds9 -region load WD1026_comp09.reg WD1026_w1.img\[37\] &
+edit compdata/WD1026_w1_senstest_comp09_more.dat 38
+ds9 -region load WD1026_comp09.reg WD1026_w1.img\[38\] &
+edit compdata/WD1026_w1_senstest_comp09_more.dat 39
+ds9 -region load WD1026_comp09.reg WD1026_w1.img\[39\] &
+edit compdata/WD1657_w1_senstest_comp01_more.dat 44
+ds9 -region load WD1657_comp01.reg WD1657_w1.img\[44\] &
+edit compdata/WD1657_w1_senstest_comp01_more.dat 50
+ds9 -region load WD1657_comp01.reg WD1657_w1.img\[50\] &
+edit compdata/WD1657_w1_senstest_comp01_more.dat 52
+ds9 -region load WD1657_comp01.reg WD1657_w1.img\[52\] &
+edit compdata/WD1657_w1_senstest_comp05_more.dat 52
+ds9 -region load WD1657_comp05.reg WD1657_w1.img\[52\] &
+edit compdata/GRB221009a_w1_senstest_comp01_more.dat 6
+ds9 -region load GRB221009a_comp01.reg GRB221009a_w1.img\[6\] &
+edit compdata/SN2006jc_m2_senstest_comp1_more.dat 47
+ds9 -region load SN2006jc_comp1.reg SN2006jc_m2.img\[47\] &
+edit compdata/SN2006jc_m2_senstest_comp1_more.dat 73
+ds9 -region load SN2006jc_comp1.reg SN2006jc_m2.img\[73\] &
+edit compdata/SN2006jc_m2_senstest_comp5_more.dat 8
+ds9 -region load SN2006jc_comp5.reg SN2006jc_m2.img\[8\] &
+edit compdata/SN2007cv_m2_senstest_comp3_more.dat 1
+ds9 -region load SN2007cv_comp3.reg SN2007cv_m2.img\[1\] &
+edit compdata/SN2016gxp_m2_senstest_comp03_more.dat 6
+ds9 -region load SN2016gxp_comp03.reg SN2016gxp_m2.img\[6\] &
+edit compdata/SN2018hna_m2_senstest_comp3_more.dat 5
+ds9 -region load SN2018hna_comp3.reg SN2018hna_m2.img\[5\] &
+edit compdata/SN2018hna_m2_senstest_comp3_more.dat 6
+ds9 -region load SN2018hna_comp3.reg SN2018hna_m2.img\[6\] &
+edit compdata/SN2018hna_m2_senstest_comp3_more.dat 7
+ds9 -region load SN2018hna_comp3.reg SN2018hna_m2.img\[7\] &
+edit compdata/SN2018hna_m2_senstest_comp3_more.dat 10
+ds9 -region load SN2018hna_comp3.reg SN2018hna_m2.img\[10\] &
+edit compdata/SN2018hna_m2_senstest_comp3_more.dat 17
+ds9 -region load SN2018hna_comp3.reg SN2018hna_m2.img\[17\] &
+edit compdata/SN2018hna_m2_senstest_comp5_more.dat 16
+ds9 -region load SN2018hna_comp5.reg SN2018hna_m2.img\[16\] &
+edit compdata/SN2018hna_m2_senstest_comp5_more.dat 20
+ds9 -region load SN2018hna_comp5.reg SN2018hna_m2.img\[20\] &
+edit compdata/SN2018hna_m2_senstest_comp7_more.dat 17
+ds9 -region load SN2018hna_comp7.reg SN2018hna_m2.img\[17\] &
+edit compdata/SN2018hna_m2_senstest_comp7_more.dat 18
+ds9 -region load SN2018hna_comp7.reg SN2018hna_m2.img\[18\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 1
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[1\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 5
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[5\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 7
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[7\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 9
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[9\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 11
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[11\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 12
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[12\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 13
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[13\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 14
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[14\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 16
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[16\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 17
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[17\] &
+edit compdata/SN2019np_m2_senstest_comp01_more.dat 18
+ds9 -region load SN2019np_comp01.reg SN2019np_m2.img\[18\] &
+edit compdata/SN2021csp_m2_senstest_comp01_more.dat 3
+ds9 -region load SN2021csp_comp01.reg SN2021csp_m2.img\[3\] &
+edit compdata/SN2021csp_m2_senstest_comp04_more.dat 2
+ds9 -region load SN2021csp_comp04.reg SN2021csp_m2.img\[2\] &
+edit compdata/SN2021csp_m2_senstest_comp04_more.dat 3
+ds9 -region load SN2021csp_comp04.reg SN2021csp_m2.img\[3\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 1
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[1\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 3
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[3\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 6
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[6\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 9
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[9\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 10
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[10\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 11
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[11\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 13
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[13\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 14
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[14\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 15
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[15\] &
+edit compdata/SN2021yja_m2_senstest_comp1_more.dat 17
+ds9 -region load SN2021yja_comp1.reg SN2021yja_m2.img\[17\] &
+edit compdata/SN2021yja_m2_senstest_comp3_more.dat 11
+ds9 -region load SN2021yja_comp3.reg SN2021yja_m2.img\[11\] &
+edit compdata/SN2021yja_m2_senstest_comp4_more.dat 8
+ds9 -region load SN2021yja_comp4.reg SN2021yja_m2.img\[8\] &
+edit compdata/SN2021yja_m2_senstest_comp4_more.dat 11
+ds9 -region load SN2021yja_comp4.reg SN2021yja_m2.img\[11\] &
+edit compdata/SN2021yja_m2_senstest_comp4_more.dat 14
+ds9 -region load SN2021yja_comp4.reg SN2021yja_m2.img\[14\] &
+edit compdata/SN2021yja_m2_senstest_comp5_more.dat 11
+ds9 -region load SN2021yja_comp5.reg SN2021yja_m2.img\[11\] &
+edit compdata/SN2022hrs_m2_senstest_comp05_more.dat 6
+ds9 -region load SN2022hrs_comp05.reg SN2022hrs_m2.img\[6\] &
+edit compdata/SN2022hrs_m2_senstest_comp06_more.dat 9
+ds9 -region load SN2022hrs_comp06.reg SN2022hrs_m2.img\[9\] &
+edit compdata/SN2022hrs_m2_senstest_comp07_more.dat 8
+ds9 -region load SN2022hrs_comp07.reg SN2022hrs_m2.img\[8\] &
+edit compdata/SN2022hrs_m2_senstest_comp08_more.dat 8
+ds9 -region load SN2022hrs_comp08.reg SN2022hrs_m2.img\[8\] &
+edit compdata/SN2022hrs_m2_senstest_comp09_more.dat 6
+ds9 -region load SN2022hrs_comp09.reg SN2022hrs_m2.img\[6\] &
+edit compdata/SN2023bee_m2_senstest_comp06_more.dat 10
+ds9 -region load SN2023bee_comp06.reg SN2023bee_m2.img\[10\] &
+edit compdata/SN2023bee_m2_senstest_comp35_more.dat 6
+ds9 -region load SN2023bee_comp35.reg SN2023bee_m2.img\[6\] &
+edit compdata/SN2023bee_m2_senstest_comp35_more.dat 16
+ds9 -region load SN2023bee_comp35.reg SN2023bee_m2.img\[16\] &
+edit compdata/WD1026_m2_senstest_comp02_more.dat 28
+ds9 -region load WD1026_comp02.reg WD1026_m2.img\[28\] &
+edit compdata/WD1026_m2_senstest_comp03_more.dat 20
+ds9 -region load WD1026_comp03.reg WD1026_m2.img\[20\] &
+edit compdata/WD1026_m2_senstest_comp03_more.dat 22
+ds9 -region load WD1026_comp03.reg WD1026_m2.img\[22\] &
+edit compdata/WD1026_m2_senstest_comp03_more.dat 23
+ds9 -region load WD1026_comp03.reg WD1026_m2.img\[23\] &
+edit compdata/WD1026_m2_senstest_comp03_more.dat 25
+ds9 -region load WD1026_comp03.reg WD1026_m2.img\[25\] &
+edit compdata/WD1026_m2_senstest_comp03_more.dat 27
+ds9 -region load WD1026_comp03.reg WD1026_m2.img\[27\] &
+edit compdata/WD1026_m2_senstest_comp03_more.dat 31
+ds9 -region load WD1026_comp03.reg WD1026_m2.img\[31\] &
+edit compdata/WD1026_m2_senstest_comp09_more.dat 24
+ds9 -region load WD1026_comp09.reg WD1026_m2.img\[24\] &
+edit compdata/WD1026_m2_senstest_comp09_more.dat 29
+ds9 -region load WD1026_comp09.reg WD1026_m2.img\[29\] &
+edit compdata/WD1026_m2_senstest_comp09_more.dat 34
+ds9 -region load WD1026_comp09.reg WD1026_m2.img\[34\] &
+edit compdata/WD1026_m2_senstest_comp09_more.dat 35
+ds9 -region load WD1026_comp09.reg WD1026_m2.img\[35\] &
+edit compdata/WD1026_m2_senstest_comp09_more.dat 37
+ds9 -region load WD1026_comp09.reg WD1026_m2.img\[37\] &
+edit compdata/WD1657_m2_senstest_comp05_more.dat 32
+ds9 -region load WD1657_comp05.reg WD1657_m2.img\[32\] &
+edit compdata/GRB221009a_m2_senstest_comp01_more.dat 2
+ds9 -region load GRB221009a_comp01.reg GRB221009a_m2.img\[2\] &
+edit compdata/SN2006jc_w2_senstest_comp1_more.dat 14
+ds9 -region load SN2006jc_comp1.reg SN2006jc_w2.img\[14\] &
+edit compdata/SN2006jc_w2_senstest_comp1_more.dat 78
+ds9 -region load SN2006jc_comp1.reg SN2006jc_w2.img\[78\] &
+edit compdata/SN2006jc_w2_senstest_comp1_more.dat 87
+ds9 -region load SN2006jc_comp1.reg SN2006jc_w2.img\[87\] &
+edit compdata/SN2006jc_w2_senstest_comp3_more.dat 8
+ds9 -region load SN2006jc_comp3.reg SN2006jc_w2.img\[8\] &
+edit compdata/SN2006jc_w2_senstest_comp3_more.dat 116
+ds9 -region load SN2006jc_comp3.reg SN2006jc_w2.img\[116\] &
+edit compdata/SN2006jc_w2_senstest_comp5_more.dat 2
+ds9 -region load SN2006jc_comp5.reg SN2006jc_w2.img\[2\] &
+edit compdata/SN2006jc_w2_senstest_comp5_more.dat 3
+ds9 -region load SN2006jc_comp5.reg SN2006jc_w2.img\[3\] &
+edit compdata/SN2006jc_w2_senstest_comp5_more.dat 8
+ds9 -region load SN2006jc_comp5.reg SN2006jc_w2.img\[8\] &
+edit compdata/SN2006jc_w2_senstest_comp7_more.dat 183
+ds9 -region load SN2006jc_comp7.reg SN2006jc_w2.img\[183\] &
+edit compdata/SN2006jc_w2_senstest_comp10_more.dat 198
+ds9 -region load SN2006jc_comp10.reg SN2006jc_w2.img\[198\] &
+edit compdata/SN2006jc_w2_senstest_comp12_more.dat 1
+ds9 -region load SN2006jc_comp12.reg SN2006jc_w2.img\[1\] &
+edit compdata/SN2010al_w2_senstest_comp2_more.dat 3
+ds9 -region load SN2010al_comp2.reg SN2010al_w2.img\[3\] &
+edit compdata/SN2010al_w2_senstest_comp2_more.dat 14
+ds9 -region load SN2010al_comp2.reg SN2010al_w2.img\[14\] &
+edit compdata/SN2016gxp_w2_senstest_comp01_more.dat 13
+ds9 -region load SN2016gxp_comp01.reg SN2016gxp_w2.img\[13\] &
+edit compdata/SN2016gxp_w2_senstest_comp03_more.dat 7
+ds9 -region load SN2016gxp_comp03.reg SN2016gxp_w2.img\[7\] &
+edit compdata/SN2016gxp_w2_senstest_comp03_more.dat 13
+ds9 -region load SN2016gxp_comp03.reg SN2016gxp_w2.img\[13\] &
+edit compdata/SN2016gxp_w2_senstest_comp04_more.dat 3
+ds9 -region load SN2016gxp_comp04.reg SN2016gxp_w2.img\[3\] &
+edit compdata/SN2016gxp_w2_senstest_comp05_more.dat 7
+ds9 -region load SN2016gxp_comp05.reg SN2016gxp_w2.img\[7\] &
+edit compdata/SN2016gxp_w2_senstest_comp05_more.dat 8
+ds9 -region load SN2016gxp_comp05.reg SN2016gxp_w2.img\[8\] &
+edit compdata/SN2018aoz_w2_senstest_comp4_more.dat 7
+ds9 -region load SN2018aoz_comp4.reg SN2018aoz_w2.img\[7\] &
+edit compdata/SN2018aoz_w2_senstest_comp8_more.dat 4
+ds9 -region load SN2018aoz_comp8.reg SN2018aoz_w2.img\[4\] &
+edit compdata/SN2018cow_w2_senstest_comp01_more.dat 78
+ds9 -region load SN2018cow_comp01.reg SN2018cow_w2.img\[78\] &
+edit compdata/SN2018hna_w2_senstest_comp3_more.dat 1
+ds9 -region load SN2018hna_comp3.reg SN2018hna_w2.img\[1\] &
+edit compdata/SN2018hna_w2_senstest_comp3_more.dat 2
+ds9 -region load SN2018hna_comp3.reg SN2018hna_w2.img\[2\] &
+edit compdata/SN2018hna_w2_senstest_comp3_more.dat 15
+ds9 -region load SN2018hna_comp3.reg SN2018hna_w2.img\[15\] &
+edit compdata/SN2018hna_w2_senstest_comp3_more.dat 16
+ds9 -region load SN2018hna_comp3.reg SN2018hna_w2.img\[16\] &
+edit compdata/SN2018hna_w2_senstest_comp3_more.dat 20
+ds9 -region load SN2018hna_comp3.reg SN2018hna_w2.img\[20\] &
+edit compdata/SN2018hna_w2_senstest_comp4_more.dat 16
+ds9 -region load SN2018hna_comp4.reg SN2018hna_w2.img\[16\] &
+edit compdata/SN2018hna_w2_senstest_comp4_more.dat 17
+ds9 -region load SN2018hna_comp4.reg SN2018hna_w2.img\[17\] &
+edit compdata/SN2018hna_w2_senstest_comp5_more.dat 3
+ds9 -region load SN2018hna_comp5.reg SN2018hna_w2.img\[3\] &
+edit compdata/SN2018hna_w2_senstest_comp5_more.dat 5
+ds9 -region load SN2018hna_comp5.reg SN2018hna_w2.img\[5\] &
+edit compdata/SN2018hna_w2_senstest_comp5_more.dat 12
+ds9 -region load SN2018hna_comp5.reg SN2018hna_w2.img\[12\] &
+edit compdata/SN2018hna_w2_senstest_comp5_more.dat 17
+ds9 -region load SN2018hna_comp5.reg SN2018hna_w2.img\[17\] &
+edit compdata/SN2018hna_w2_senstest_comp5_more.dat 18
+ds9 -region load SN2018hna_comp5.reg SN2018hna_w2.img\[18\] &
+edit compdata/SN2018hna_w2_senstest_comp7_more.dat 16
+ds9 -region load SN2018hna_comp7.reg SN2018hna_w2.img\[16\] &
+edit compdata/SN2018hna_w2_senstest_comp7_more.dat 17
+ds9 -region load SN2018hna_comp7.reg SN2018hna_w2.img\[17\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 1
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[1\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 3
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[3\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 4
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[4\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 5
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[5\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 6
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[6\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 7
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[7\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 8
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[8\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 9
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[9\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 11
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[11\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 17
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[17\] &
+edit compdata/SN2019np_w2_senstest_comp01_more.dat 18
+ds9 -region load SN2019np_comp01.reg SN2019np_w2.img\[18\] &
+edit compdata/SN2019wep_w2_senstest_comp01_more.dat 10
+ds9 -region load SN2019wep_comp01.reg SN2019wep_w2.img\[10\] &
+edit compdata/SN2019wep_w2_senstest_comp01_more.dat 12
+ds9 -region load SN2019wep_comp01.reg SN2019wep_w2.img\[12\] &
+edit compdata/SN2019wep_w2_senstest_comp02_more.dat 1
+ds9 -region load SN2019wep_comp02.reg SN2019wep_w2.img\[1\] &
+edit compdata/SN2019wep_w2_senstest_comp02_more.dat 12
+ds9 -region load SN2019wep_comp02.reg SN2019wep_w2.img\[12\] &
+edit compdata/SN2019wep_w2_senstest_comp04_more.dat 1
+ds9 -region load SN2019wep_comp04.reg SN2019wep_w2.img\[1\] &
+edit compdata/SN2019wep_w2_senstest_comp04_more.dat 2
+ds9 -region load SN2019wep_comp04.reg SN2019wep_w2.img\[2\] &
+edit compdata/SN2019yvq_w2_senstest_comp01_more.dat 7
+ds9 -region load SN2019yvq_comp01.reg SN2019yvq_w2.img\[7\] &
+edit compdata/SN2019yvq_w2_senstest_comp01_more.dat 9
+ds9 -region load SN2019yvq_comp01.reg SN2019yvq_w2.img\[9\] &
+edit compdata/SN2019yvq_w2_senstest_comp01_more.dat 10
+ds9 -region load SN2019yvq_comp01.reg SN2019yvq_w2.img\[10\] &
+edit compdata/SN2019yvq_w2_senstest_comp01_more.dat 17
+ds9 -region load SN2019yvq_comp01.reg SN2019yvq_w2.img\[17\] &
+edit compdata/SN2021csp_w2_senstest_comp08_more.dat 1
+ds9 -region load SN2021csp_comp08.reg SN2021csp_w2.img\[1\] &
+edit compdata/SN2021yja_w2_senstest_comp1_more.dat 4
+ds9 -region load SN2021yja_comp1.reg SN2021yja_w2.img\[4\] &
+edit compdata/SN2021yja_w2_senstest_comp1_more.dat 5
+ds9 -region load SN2021yja_comp1.reg SN2021yja_w2.img\[5\] &
+edit compdata/SN2021yja_w2_senstest_comp1_more.dat 6
+ds9 -region load SN2021yja_comp1.reg SN2021yja_w2.img\[6\] &
+edit compdata/SN2021yja_w2_senstest_comp1_more.dat 13
+ds9 -region load SN2021yja_comp1.reg SN2021yja_w2.img\[13\] &
+edit compdata/SN2021yja_w2_senstest_comp1_more.dat 14
+ds9 -region load SN2021yja_comp1.reg SN2021yja_w2.img\[14\] &
+edit compdata/SN2021yja_w2_senstest_comp1_more.dat 18
+ds9 -region load SN2021yja_comp1.reg SN2021yja_w2.img\[18\] &
+edit compdata/SN2021yja_w2_senstest_comp3_more.dat 4
+ds9 -region load SN2021yja_comp3.reg SN2021yja_w2.img\[4\] &
+edit compdata/SN2021yja_w2_senstest_comp3_more.dat 5
+ds9 -region load SN2021yja_comp3.reg SN2021yja_w2.img\[5\] &
+edit compdata/SN2021yja_w2_senstest_comp3_more.dat 9
+ds9 -region load SN2021yja_comp3.reg SN2021yja_w2.img\[9\] &
+edit compdata/SN2021yja_w2_senstest_comp3_more.dat 10
+ds9 -region load SN2021yja_comp3.reg SN2021yja_w2.img\[10\] &
+edit compdata/SN2021yja_w2_senstest_comp4_more.dat 4
+ds9 -region load SN2021yja_comp4.reg SN2021yja_w2.img\[4\] &
+edit compdata/SN2021yja_w2_senstest_comp4_more.dat 5
+ds9 -region load SN2021yja_comp4.reg SN2021yja_w2.img\[5\] &
+edit compdata/SN2021yja_w2_senstest_comp5_more.dat 4
+ds9 -region load SN2021yja_comp5.reg SN2021yja_w2.img\[4\] &
+edit compdata/SN2021yja_w2_senstest_comp5_more.dat 10
+ds9 -region load SN2021yja_comp5.reg SN2021yja_w2.img\[10\] &
+edit compdata/SN2021yja_w2_senstest_comp5_more.dat 11
+ds9 -region load SN2021yja_comp5.reg SN2021yja_w2.img\[11\] &
+edit compdata/SN2021yja_w2_senstest_comp5_more.dat 14
+ds9 -region load SN2021yja_comp5.reg SN2021yja_w2.img\[14\] &
+edit compdata/SN2021yja_w2_senstest_comp5_more.dat 17
+ds9 -region load SN2021yja_comp5.reg SN2021yja_w2.img\[17\] &
+edit compdata/SN2022hrs_w2_senstest_comp03_more.dat 2
+ds9 -region load SN2022hrs_comp03.reg SN2022hrs_w2.img\[2\] &
+edit compdata/SN2022hrs_w2_senstest_comp05_more.dat 6
+ds9 -region load SN2022hrs_comp05.reg SN2022hrs_w2.img\[6\] &
+edit compdata/SN2022hrs_w2_senstest_comp05_more.dat 7
+ds9 -region load SN2022hrs_comp05.reg SN2022hrs_w2.img\[7\] &
+edit compdata/SN2022hrs_w2_senstest_comp05_more.dat 9
+ds9 -region load SN2022hrs_comp05.reg SN2022hrs_w2.img\[9\] &
+edit compdata/SN2022hrs_w2_senstest_comp05_more.dat 16
+ds9 -region load SN2022hrs_comp05.reg SN2022hrs_w2.img\[16\] &
+edit compdata/SN2023bee_w2_senstest_comp01_more.dat 5
+ds9 -region load SN2023bee_comp01.reg SN2023bee_w2.img\[5\] &
+edit compdata/SN2023bee_w2_senstest_comp06_more.dat 5
+ds9 -region load SN2023bee_comp06.reg SN2023bee_w2.img\[5\] &
+edit compdata/SN2023bee_w2_senstest_comp06_more.dat 7
+ds9 -region load SN2023bee_comp06.reg SN2023bee_w2.img\[7\] &
+edit compdata/SN2023bee_w2_senstest_comp22_more.dat 5
+ds9 -region load SN2023bee_comp22.reg SN2023bee_w2.img\[5\] &
+edit compdata/SN2023bee_w2_senstest_comp31_more.dat 5
+ds9 -region load SN2023bee_comp31.reg SN2023bee_w2.img\[5\] &
+edit compdata/SN2023bee_w2_senstest_comp35_more.dat 6
+ds9 -region load SN2023bee_comp35.reg SN2023bee_w2.img\[6\] &
+edit compdata/WD1026_w2_senstest_comp02_more.dat 27
+ds9 -region load WD1026_comp02.reg WD1026_w2.img\[27\] &
+edit compdata/WD1026_w2_senstest_comp02_more.dat 31
+ds9 -region load WD1026_comp02.reg WD1026_w2.img\[31\] &
+edit compdata/WD1026_w2_senstest_comp03_more.dat 11
+ds9 -region load WD1026_comp03.reg WD1026_w2.img\[11\] &
+edit compdata/WD1026_w2_senstest_comp03_more.dat 23
+ds9 -region load WD1026_comp03.reg WD1026_w2.img\[23\] &
+edit compdata/WD1026_w2_senstest_comp03_more.dat 24
+ds9 -region load WD1026_comp03.reg WD1026_w2.img\[24\] &
+edit compdata/WD1026_w2_senstest_comp03_more.dat 25
+ds9 -region load WD1026_comp03.reg WD1026_w2.img\[25\] &
+edit compdata/WD1026_w2_senstest_comp03_more.dat 26
+ds9 -region load WD1026_comp03.reg WD1026_w2.img\[26\] &
+edit compdata/WD1026_w2_senstest_comp03_more.dat 29
+ds9 -region load WD1026_comp03.reg WD1026_w2.img\[29\] &
+edit compdata/WD1026_w2_senstest_comp06_more.dat 27
+ds9 -region load WD1026_comp06.reg WD1026_w2.img\[27\] &
+edit compdata/WD1026_w2_senstest_comp06_more.dat 31
+ds9 -region load WD1026_comp06.reg WD1026_w2.img\[31\] &
+edit compdata/WD1026_w2_senstest_comp06_more.dat 34
+ds9 -region load WD1026_comp06.reg WD1026_w2.img\[34\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 28
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[28\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 31
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[31\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 32
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[32\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 35
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[35\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 36
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[36\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 37
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[37\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 38
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[38\] &
+edit compdata/WD1026_w2_senstest_comp09_more.dat 40
+ds9 -region load WD1026_comp09.reg WD1026_w2.img\[40\] &
+edit compdata/WD1121_w2_senstest_comp05_more.dat 23
+ds9 -region load WD1121_comp05.reg WD1121_w2.img\[23\] &
+edit compdata/WD1121_w2_senstest_comp05_more.dat 24
+ds9 -region load WD1121_comp05.reg WD1121_w2.img\[24\] &
+edit compdata/WD1657_w2_senstest_comp05_more.dat 30
+ds9 -region load WD1657_comp05.reg WD1657_w2.img\[30\] &
+edit compdata/WD1657_w2_senstest_comp05_more.dat 36
+ds9 -region load WD1657_comp05.reg WD1657_w2.img\[36\] &
+edit compdata/GRB221009a_w2_senstest_comp01_more.dat 4
+ds9 -region load GRB221009a_comp01.reg GRB221009a_w2.img\[4\] &
+edit compdata/GRB221009a_w2_senstest_comp01_more.dat 5
+ds9 -region load GRB221009a_comp01.reg GRB221009a_w2.img\[5\] &
+edit compdata/GRB221009a_w2_senstest_comp01_more.dat 6
+ds9 -region load GRB221009a_comp01.reg GRB221009a_w2.img\[6\] &
+edit compdata/GRB221009a_w2_senstest_comp01_more.dat 7
+ds9 -region load GRB221009a_comp01.reg GRB221009a_w2.img\[7\] &
+edit compdata/GRB221009a_w2_senstest_comp02_more.dat 6
+ds9 -region load GRB221009a_comp02.reg GRB221009a_w2.img\[6\] &

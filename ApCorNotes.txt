@@ -1,0 +1,18 @@
+The position of some of the comparison stars in some of the frames fall outside of the instrument field of view but inside the frame of the processed sky image.  This is a square with north pointing up and regions ouside of the field of view zeroed out.  This will result in negative count rates and an aperture correction dependent on the background count rate.
+
+Negative count rates are trimmed out.
+
+A spot check of high aperture corrections for high count rate sources revealed an image with streaks from a star tracker loss of lock and a source at the very edge of the image.
+
+
+
+standardrates checks the sensitivity correction and aperture correction with the WD standard star fields
+
+apcor_sliced  is the one with the most work in it
+
+
+
+
+
+
+ds9 -multiframe SN2006jc_w2.img -region load all SN2006jc_comp10.reg  -region load all SN2006jc_comp11.reg  -region load all SN2006jc_comp12.reg  -region load all SN2006jc_comp13.reg  -region load all SN2006jc_comp14.reg  -region load all SN2006jc_comp15.reg  -region load all SN2006jc_comp15.reg  -region load all SN2006jc_comp16.reg  -region load all SN2006jc_comp17.reg  -region load all SN2006jc_comp18.reg  -region load all SN2006jc_comp19.reg  -region load all SN2006jc_comp1.reg  -region load all SN2006jc_comp2.reg  -region load all SN2006jc_comp3.reg  -region load all SN2006jc_comp4.reg  -region load all SN2006jc_comp5.reg  -region load all SN2006jc_comp6.reg  -region load all SN2006jc_comp7.reg  -region load all SN2006jc_comp8.reg  -region load all SN2006jc_comp9.reg  -region load all SN2006jc_comp20.reg &
