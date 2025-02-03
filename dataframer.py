@@ -26,7 +26,56 @@ def __ap_cor_err(cr5, cr3, cr5e, cr3e):
 #    Public Functions    #
 #========================#
 
-def process_photometry_data(filters, fields, comps, mostepochs=300):
+def filter_entries(df, filters=None, fields=None, comps=None, epochs=None, entries=None, comparison='>', threshold=1.4, print_summary=False):
+    """
+    Filter entries in the DataFrame based on filter, field, comp, and epoch values.
+    Threshold is used to filter the entries.
+    """
+
+    if not entries:
+        return df
+
+    if filters:
+        df = df[df['filter'].isin(filters)]
+    if fields:
+        df = df[df['field'].isin(fields)]
+    if comps:
+        df = df[df['comp'].isin(comps)]
+    if epochs:
+        df = df[df['epoch'].isin(epochs)]
+    if threshold:
+        for entry in entries:
+            if comparison == '>':
+                df = df[df[entry] > threshold]
+            elif comparison == '<':
+                df = df[df[entry] < threshold]
+            elif comparison == '==':
+                df = df[df[entry] == threshold]
+            elif comparison == '!=':
+                df = df[df[entry] != threshold]
+            elif comparison == '>=':
+                df = df[df[entry] >= threshold]
+            elif comparison == '<=':
+                df = df[df[entry] <= threshold]
+            else:
+                raise ValueError(f"Invalid comparison operator: {comparison}")
+
+    if print_summary:
+        print(f"Number of entries: {len(df)}")
+        print(f"Number of filters: {len(df['filter'].unique())}")
+        print(f"Number of fields: {len(df['field'].unique())}")
+        print(f"Number of comps: {len(df['comp'].unique())}")
+        print(f"Number of epochs: {len(df['epoch'].unique())}")
+
+    return df
+
+def find_high_apcor_entries(df, threshold=1.4):
+    """
+    Find entries in the DataFrame with aperture correction errors above a threshold.
+    """
+    return df[(df['apcore'] > threshold) | (df['apcore_centroid'] > threshold)]
+
+def process_photometry_data(filters, fields, comps, main_file_pattern, centroid_file_pattern, mostepochs=300):
     """
     Process photometry data files and return a DataFrame containing
     measurements and computed aperture corrections.
@@ -49,8 +98,8 @@ def process_photometry_data(filters, fields, comps, mostepochs=300):
     for i, filt in enumerate(filters):
         for j, field in enumerate(fields):
             for c, comp in enumerate(comps):
-                file = os.path.join('compdata', f'{field}_{filt}_senstest_comp{comp}_more.dat')
-                filecentroid = os.path.join('compdata', f'{field}_{filt}_senstest_comp{comp}_centroid_more.dat')
+                file = main_file_pattern.format(field=field, filter=filt, comp=comp)
+                filecentroid = centroid_file_pattern.format(field=field, filter=filt, comp=comp)
 
                 # Process the main file using `with` to ensure resources are released.
                 # Additionally, check the column size to avoid accessing invalid memory.
